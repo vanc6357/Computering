@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(140,205,160);
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:rgb(0,0,0);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(180,245,200);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 13px 13px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  </style>
+
+</head>
+
+
+
+<body>
+
+
+<ul>
+  <li>
+  <a href="home.html"> <i class="fa fa-home" style="font-size:22px"></i></a>
+  </li>
+
+  <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Vectors</a>
+    <div class="dropdown-content">
+      <a href="vector.html">Vector basics</a>
+      <a href="vector_adding.html">Vector addition</a>
+    </div>
+  </li>
+
+
+
+  <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Kinematics</a>
+    <div class="dropdown-content">
+      <a href="kinvectors.html">Kinematics basics</a>
+      <a href="kingraph.html">Kinematic graphs</a>
+      <a href="2Dkinematics.html">2-Dimensional</a>
+    </div>
+  </li>
+
+
+   <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Mechanics</a>
+    <div class="dropdown-content">
+      <a href="mechanics.html">Mechanics basics</a>
+      <a href="pulleys.html">Pulleys</a>
+      <a href="planes.html">Inclined planes</a>
+      <a href="spring.html">Spring force</a>
+      <a href="centripetal.html">Centripetal force</a>
+       <a href="thermo.html">Thermodynamics</a>
+       <a href="power.html">Power</a>
+       <a href="momentum.html">Momentum</a>
+    </div>
+  </li>
+
+   <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Angular Motion</a>
+    <div class="dropdown-content">
+      <a href="angularmotion.html">Displacement</a>
+      <a href="angularv.html">Velocity</a>
+      <a href="angularacceleration.html">Acceleration</a>
+      <a href="torque.html">Torque</a>
+    </div>
+  </li>
+
+
+ <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Optics</a>
+    <div class="dropdown-content">
+      <a href="waves.html">Waves</a>
+      <a href="reflection.html">Reflection</a>
+      <a href="refraction.html">Refraction</a>
+    </div>
+  </li>
+
+</ul>
+
+</body>
+
+<style>
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+.parallax1 {
+    /* The image used */
+    background-image: url('https://images2.alphacoders.com/241/thumb-1920-241922.jpg');
+
+    /* Full height */
+    height: 60%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url('https://images2.alphacoders.com/241/thumb-1920-241922.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+</style>
+
+</head>
+
+<body background="https://images2.alphacoders.com/241/thumb-1920-241922.jpg">
+
+
+
+
+<div class="parallax1"></div>
+
+<div style="height:180px;background-color:rgb(180,245,200);font-size:50px;color:rgb(120,120,120);">
+<br><center>2D Kinematics</center></div>
+
+<div class="parallax1"></div>
+
+<div class="second" style="height:600px;background-color:rgb(180,245,200);font-size:16px;padding:50px">
+2D Kinematics:<br><br>
+
+The object's x and y trajectory must be combined in a single graph so that its trajectory can be depicted.<br>
+The graph can be broken down into two graphs to solve problems: x(t) and y(t), x and y being the axis of the object and t being time.<br><br>
+
+<img src="https://files.slack.com/files-pri/T4PP9GF0T-F5GTFTG1M/projectile.png?pub_secret=ae7f4d15c8" style="width:800px;"><br><br>
+
+y(t) graph: Since acceleration of gravity applies to the y-axis, it must be plugged into the rule of the y(t) graph. As a result, the y(t) graph should look similar to y(x) graph. <br><br>
+
+X(t) graph: Since gravity goes along the y-axis, and wind resistance is ignored, there is no acceleration on the x-axis. As a result, the x(t) function continually increases. 
+
+ </div>
+
+<div class=parallax2></div>
+
+
+</body>
+</html>
+

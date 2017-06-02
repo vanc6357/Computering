@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(108,179,196);
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:rgb(0,0,0);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(158,229,246);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 13px 13px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  </style>
+
+</head>
+
+
+
+<body>
+
+
+<ul>
+  <li>
+  <a href="home.html"> <i class="fa fa-home" style="font-size:22px"></i></a>
+  </li>
+
+  <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Vectors</a>
+    <div class="dropdown-content">
+      <a href="vector.html">Vector basics</a>
+      <a href="vector_adding.html">Vector addition</a>
+    </div>
+  </li>
+
+
+
+  <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Kinematics</a>
+    <div class="dropdown-content">
+      <a href="kinvectors.html">Kinematics basics</a>
+      <a href="kingraph.html">Kinematic graphs</a>
+      <a href="2Dkinematics.html">2-Dimensional</a>
+    </div>
+  </li>
+
+
+   <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Mechanics</a>
+    <div class="dropdown-content">
+      <a href="mechanics.html">Mechanics basics</a>
+      <a href="pulleys.html">Pulleys</a>
+      <a href="planes.html">Inclined planes</a>
+      <a href="spring.html">Spring force</a>
+      <a href="centripetal.html">Centripetal force</a>
+       <a href="thermo.html">Thermodynamics</a>
+       <a href="power.html">Power</a>
+       <a href="momentum.html">Momentum</a>
+    </div>
+  </li>
+
+   <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Angular Motion</a>
+    <div class="dropdown-content">
+      <a href="angularmotion.html">Displacement</a>
+      <a href="angularv.html">Velocity</a>
+      <a href="angularacceleration.html">Acceleration</a>
+      <a href="torque.html">Torque</a>
+    </div>
+  </li>
+
+
+ <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Optics</a>
+    <div class="dropdown-content">
+      <a href="waves.html">Waves</a>
+      <a href="reflection.html">Reflection</a>
+      <a href="refraction.html">Refraction</a>
+    </div>
+  </li>
+
+</ul>
+
+</body>
+  <head>
+
+<style>
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+.parallax1 {
+    /* The image used */
+    background-image: url('https://www.helloclass.com/blog/wp-content/uploads/2016/04/A-Getty-107758168_bp1kbk.jpg');
+
+    /* Full height */
+    height: 50%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    /* The image used */
+    background-image: url('https://www.helloclass.com/blog/wp-content/uploads/2016/04/A-Getty-107758168_bp1kbk.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+
+</head>
+
+
+
+<body background="https://www.helloclass.com/blog/wp-content/uploads/2016/04/A-Getty-107758168_bp1kbk.jpg">
+
+    <div class="parallax1"></div>
+
+<div style="height:180px;background-color:rgb(138,209,226);font-size:50px">
+<br><center>Refraction</center></div>
+
+    <div class="parallax1"></div>
+
+<div style="height:300;background-color:rgb(138,209,226);font-size:16px;padding:50px">
+
+Refraction: The bending of light<br>
+
+<center><img src="https://files.slack.com/files-pri/T4PP9GF0T-F5M14AQE9/glass.png?pub_secret=b5bf30bbef"><br><br>
+<br>
+<img src="https://files.slack.com/files-pri/T4PP9GF0T-F5LB4A40Z/refrac.png?pub_secret=5b432e84af"><br><br></center>
+<br>
+<em>Snell's law</em><br><br>
+
+n1V1 = n2V2   <br><br>
+
+n = index of refraction<br>
+V = speed of light<br><br>
+
+To find n:<br><br>
+
+n = c/V<br><br>
+
+c = speed of light in vacuum = 300,000,000 m/s<br><br>
+
+
+</div>
+
+<div class="parallax1"></div>
+
+<div style="height:300;background-color:rgb(138,209,226);font-size:16px;padding:50px">
+
+Refraction from one medium to another: <br><br>
+
+<img src="https://files.slack.com/files-pri/T4PP9GF0T-F5LRQB2CT/snelly.png?pub_secret=43f567ea49"><br><br>
+
+n1 Sin&theta; = n2 Sin&theta;<br><br>
+
+
+The larger the angle of the refracted ray, the faster the light is travelling. <br><br>
+
+
+</div>
+
+<div class="parallax1"></div>
+
+<div style="height:300;background-color:rgb(138,209,226);font-size:16px;padding:50px">
+
+Critical angle: <br>
+The biggest incident angle before total internal reflection occurs. <br><br>
+
+Total internal reflection happens when the incident ray goes from a dense medium to a less dense medium, and is reflected off the less dense medium rather than refracted though it. <br><br>
+
+<img src="https://files.slack.com/files-pri/T4PP9GF0T-F5M4ABDB4/internal.png?pub_secret=0d6fda2745"><br><br>    In the three diagrams above, a ray is depicted going through a dense medium to another less dense medium. It is confirmed that the second medium in less dense since the ray is refracted away from the normal line. <br><br>     In the first picture, a dim reflected ray is depicted as well as a refracted ray. This is because some light is always reflected as well as refracted. As the incident angle increases, the reflected ray gets brighter and brighter, and the refracted ray gets dimmer and dimmer. When the incident angle reaches a certain size (critical angle), the refracted ray will end up bending at a 90 <sup>o</sup> angle from the normal line. Thus, the refracted ray will disappear, and all the light will end up in the reflected ray. At this moment, total internal reflection will have occured. <br><br>
+
+
+Sin&theta;c = Critical angle<br><br>
+
+Sin&theta;c = n2/n1<br><br>
+
+</div>
+
+<div class="parallax1"></div>
+
+<div style="height:300;background-color:rgb(138,209,226);font-size:16px;padding:50px">
+
+Refraction in lenses:<br><br>
+
+Note: Lens are not like mirrors, as they do not reflect light. They refract it. If the image is reflected off a lens, then di is negative and the image is virtual. <br><br><br>
+
+<center><img src="https://files.slack.com/files-pri/T4PP9GF0T-F5MUJTBU6/lenses.png?pub_secret=f8637c12a2" style="width:400px;"><br>
+<img src="https://files.slack.com/files-pri/T4PP9GF0T-F5M7GDSJH/lens.png?pub_secret=0bba5d3d4e" style="width:500px;"><br><br><br></center>
+
+Unlike in mirrors, biconcave lenses are diverging, and biconvex lenses are converging.<br><br>
+
+</div>
+
+<div class="parallax1"></div>
+
+<div style="height:300;background-color:rgb(138,209,226);font-size:16px;padding:50px">
+
+Thick lens refraction: <br><br>
+
+<img src="https://files.slack.com/files-pri/T4PP9GF0T-F5LHY84QH/thick.png?pub_secret=0924f3ab2c"><img src="https://files.slack.com/files-pri/T4PP9GF0T-F5M7ZQ44D/thickconcave.png?pub_secret=76568d1fd3"><br><br><br>
+
+The normal line on a thick lens is tangential to the curve of the lens. Thus, the axis of the normal line will vary around a thick lens. <br><br>
+
+</div>
+
+<div class="parallax1"></div>
+
+<div style="height:300;background-color:rgb(138,209,226);font-size:16px;padding:50px">
+<em>Thin lens approximation:</em> <br>
+The thickness is negligible. <br><br>
+
+<img src="https://files.slack.com/files-pri/T4PP9GF0T-F5M738XSQ/thin.png?pub_secret=9812839087" style="width:400px;"><br><br>
+
+The normal line on a thin lens is perpendicular to the lens. 
+
+</div>
+
+    <div class=parallax2></div>
+
+
+</body>
+</html>
+

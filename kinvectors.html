@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(202,143,121);
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:rgb(0,0,0);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(250,220,210);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 13px 13px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  </style>
+
+</head>
+
+
+
+<body>
+
+
+<ul>
+  <li>
+  <a href="home.html"> <i class="fa fa-home" style="font-size:22px"></i></a>
+  </li>
+
+  <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Vectors</a>
+    <div class="dropdown-content">
+      <a href="vector.html">Vector basics</a>
+      <a href="vector_adding.html">Vector addition</a>
+    </div>
+  </li>
+
+
+
+  <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Kinematics</a>
+    <div class="dropdown-content">
+      <a href="kinvectors.html">Kinematics basics</a>
+      <a href="kingraph.html">Kinematic graphs</a>
+      <a href="2Dkinematics.html">2-Dimensional</a>
+    </div>
+  </li>
+
+
+   <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Mechanics</a>
+    <div class="dropdown-content">
+      <a href="mechanics.html">Mechanics basics</a>
+      <a href="pulleys.html">Pulleys</a>
+      <a href="planes.html">Inclined planes</a>
+      <a href="spring.html">Spring force</a>
+      <a href="centripetal.html">Centripetal force</a>
+       <a href="thermo.html">Thermodynamics</a>
+       <a href="power.html">Power</a>
+       <a href="momentum.html">Momentum</a>
+    </div>
+  </li>
+
+   <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Angular Motion</a>
+    <div class="dropdown-content">
+      <a href="angularmotion.html">Displacement</a>
+      <a href="angularv.html">Velocity</a>
+      <a href="angularacceleration.html">Acceleration</a>
+      <a href="torque.html">Torque</a>
+    </div>
+  </li>
+
+
+ <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Optics</a>
+    <div class="dropdown-content">
+      <a href="waves.html">Waves</a>
+      <a href="reflection.html">Reflection</a>
+      <a href="refraction.html">Refraction</a>
+    </div>
+  </li>
+
+</ul>
+
+</body>
+  <head>
+
+<style>
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+.parallax1 {
+    /* The image used */
+    background-image: url('https://files.slack.com/files-pri/T4PP9GF0T-F5FFX7LJV/skydive-photography.jpg?pub_secret=9203c45933');
+
+    /* Full height */
+    height: 50%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2{
+  /* The image used */
+    background-image: url('https://files.slack.com/files-pri/T4PP9GF0T-F5FFX7LJV/skydive-photography.jpg?pub_secret=9203c45933');
+
+    /* Full height */
+    height: 20%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parallax3{
+  /* The image used */
+    background-image: url('https://files.slack.com/files-pri/T4PP9GF0T-F5FFX7LJV/skydive-photography.jpg?pub_secret=9203c45933');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+</style>
+
+</head>
+
+
+<body background="https://files.slack.com/files-pri/T4PP9GF0T-F5FFX7LJV/skydive-photography.jpg?pub_secret=9203c45933">
+
+<div class="parallax1"></div>
+<div style="height:180px;background-color:rgb(215,160,140);font-size:50px;color:rgb(230,230,230);">
+<br><center>Kinematics</center></div>
+
+<div class="parallax1"></div>
+
+<div style="height:20px;background-color:rgb(230,180,160);font-size:16px;padding:50px"><center>
+Kinematics is the study of objects in motion, without taking into account what started the motion.</center>
+ </div>
+
+<div class=parallax1></div>
+
+<div style="height:900px;background-color:rgb(230,180,160);font-size:16px;padding:50px;">
+   
+Distance vs Displacement: <br><br>
+
+Distance and displacement are both measured in meters. However: <br><br>
+- Distance is a scalar quantity. It only has one component. Ex: 200m<br>
+- Displacement is a vector. It has a distance and a direction. Ex: 200m West<br><br><br><br><br>
+
+<img src='https://files.slack.com/files-pri/T4PP9GF0T-F5FP902LB/distance.png?pub_secret=bc20799227'> <br><br><br><br>
+<p>Displacement graph:</p>
+<img src='https://files.slack.com/files-pri/T4PP9GF0T-F5F959FUZ/displacement.png?pub_secret=4cb851409f'> 
+</div>
+  
+<div class=parallax1></div>
+
+<div style="height:540px;background-color:rgb(230,180,160);font-size:16px;padding:50px;">
+    
+Velocity and speed:<br><br>
+
+Units of velocity and speed are in meters/second. <br>
+Speed and velocity are two different things: speed is a scalar quantity, while velocity is a vector. <br><br><br>
+
+Speed refers to the amount of time required to cover distance. <br><br>
+
+<img src='https://files.slack.com/files-pri/T4PP9GF0T-F5GLQB2RM/speed.png?pub_secret=4cd00e50b8' style="width:150px;"><br><br>
+
+Velocity refers to the change in position in a certain amount of time. <br><br>
+
+<img src="https://files.slack.com/files-pri/T4PP9GF0T-F5GLQBKM5/vel.png?pub_secret=31753aca13" style="width:250px;"><br><br>
+
+Velocity takes into account the direction of the object.<br><br>
+
+Ex : Imagine someone taking a step forward, and then a step backwards, to end up at the original point. If this person repeats this motion very quickly, this person would have a high speed, but the velocity would be zero, since no change in position would occur. <br><br>
+
+The instantaneous slope of a p(t) graph describes the velocity of the object at that point.
+
+</div>
+
+<div class=parallax1></div>
+
+<div style="height:210px;background-color:rgb(230,180,160);font-size:16px;padding:50px;"> 
+
+Acceleration:<br><br>
+
+Acceleration is the rate of change of velocity at a function of time. It is a vector, and units are [m/s2]<br><br>
+
+
+Finding the instantaneous slope of a v(t) graph describes the acceleration of the object at that point. <br><br>
+
+<img src="https://files.slack.com/files-pri/T4PP9GF0T-F5F978Z97/accel.png?pub_secret=2912832ed8" style="width:100px;">
+</div>
+
+<div class=parallax3></div>
+
+
+</div>
+
+</body>
+</html>
+

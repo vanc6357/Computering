@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+
+
+  <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(255,170,150);
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:rgb(0,0,0);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(255,220,200);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 13px 13px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  </style>
+
+</head>
+
+
+
+<body>
+
+
+<ul>
+  <li>
+  <a href="home.html"> <i class="fa fa-home" style="font-size:22px"></i></a>
+  </li>
+
+  <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Vectors</a>
+    <div class="dropdown-content">
+      <a href="vector.html">Vector basics</a>
+      <a href="vector_adding.html">Vector addition</a>
+    </div>
+  </li>
+
+
+
+  <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Kinematics</a>
+    <div class="dropdown-content">
+      <a href="kinvectors.html">Kinematics basics</a>
+      <a href="kingraph.html">Kinematic graphs</a>
+      <a href="2Dkinematics.html">2-Dimensional</a>
+    </div>
+  </li>
+
+
+   <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Mechanics</a>
+    <div class="dropdown-content">
+      <a href="mechanics.html">Mechanics basics</a>
+      <a href="pulleys.html">Pulleys</a>
+      <a href="planes.html">Inclined planes</a>
+      <a href="spring.html">Spring force</a>
+      <a href="centripetal.html">Centripetal force</a>
+       <a href="thermo.html">Thermodynamics</a>
+       <a href="power.html">Power</a>
+       <a href="momentum.html">Momentum</a>
+    </div>
+  </li>
+
+   <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Angular Motion</a>
+    <div class="dropdown-content">
+      <a href="angularmotion.html">Displacement</a>
+      <a href="angularv.html">Velocity</a>
+      <a href="angularacceleration.html">Acceleration</a>
+      <a href="torque.html">Torque</a>
+    </div>
+  </li>
+
+
+ <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Optics</a>
+    <div class="dropdown-content">
+      <a href="waves.html">Waves</a>
+      <a href="reflection.html">Reflection</a>
+      <a href="refraction.html">Refraction</a>
+    </div>
+  </li>
+
+</ul>
+
+</body>
+  <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.vectors{
+
+color:rgb(100,100,100);
+
+}
+
+div.second{
+  padding: 50px;
+
+}
+
+div.third{
+  padding:50px;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(255,170,150);
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:rgb(0,0,0);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(255,220,200);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 13px 13px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+body, html {
+    height: 100%;
+}
+.parallax1 {
+    /* The image used */
+    background-image: url('https://aos.iacpublishinglabs.com/question/aq/1400px-788px/real-world-applications-trigonometry_4cbe8f4fe2db3f79.jpg?domain=cx.aos.ask.com');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url('https://aos.iacpublishinglabs.com/question/aq/1400px-788px/real-world-applications-trigonometry_4cbe8f4fe2db3f79.jpg?domain=cx.aos.ask.com');
+
+    /* Full height */
+    height: 35%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  </style>
+
+</head>
+
+
+
+
+
+
+<body background="https://aos.iacpublishinglabs.com/question/aq/1400px-788px/real-world-applications-trigonometry_4cbe8f4fe2db3f79.jpg?domain=cx.aos.ask.com">
+
+
+<div class="parallax2"></div>
+<div class="vectors" style="height:180px;background-color:rgb(215,160,140);font-size:50px">
+<br><center>Vectors</center></div>
+
+<div class="parallax2"></div>
+
+<div class="second" style="height:240px;background-color:rgb(230,180,160);font-size:16px"> <br>There are two components to a vector:<br><br>   1.Magnitude<br>2.Direction<br><br>Magnitude is the amount of units involved in a certain vector, while direction is the orientation of the vector.<br><br>Ex: a squirrel scampers two hundred meters east to hide his nuts behind a tree.<br><br>Magnitude is two hundred meters.<br>Direction is east.<br>Proper notation:[200m E]</div>
+
+<div class=parallax2></div>
+
+<div class="third" style="height:780px;background-color:rgb(230,180,160);font-size:16px">
+  Magnitude is not always a distance (meters). Magnitude can also be:<br><br>
+  -force (N)<br>
+  -velocity (m/s)<br>
+  -acceleration (m/s2)<br>
+  -etc...
+<br><br>
+Measuring a vector recquires the breaking down of its x and y component.<br> <br>
+How to: <br>
+1.  place the vector on a Cartesian plane<br>
+2.  Use trigonometry to find the value of the x and y components <br>
+3.  With the Pythagoras theorem, calculate the value of the hypotenuse, aka the magnitude of vector. <br>
+4.  With inverse tan, calculate the angle of the hypotenuse to get the direction in degrees. <br><br><br><br>
+
+<img src="https://files.slack.com/files-pri/T4PP9GF0T-F5E00CBM2/vector_diagram.png?pub_secret=614ebd4e9a" style="width:300px">
+
+
+
+</div>
+
+<div class=parallax1></div>
+
+
+</body>
+</html>
+

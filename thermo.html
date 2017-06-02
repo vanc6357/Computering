@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(150,180,180);
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:rgb(0,0,0);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(200,230,230);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 13px 13px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  </style>
+
+</head>
+
+
+
+<body>
+
+
+<ul>
+  <li>
+  <a href="home.html"> <i class="fa fa-home" style="font-size:22px"></i></a>
+  </li>
+
+  <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Vectors</a>
+    <div class="dropdown-content">
+      <a href="vector.html">Vector basics</a>
+      <a href="vector_adding.html">Vector addition</a>
+    </div>
+  </li>
+
+
+
+  <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Kinematics</a>
+    <div class="dropdown-content">
+      <a href="kinvectors.html">Kinematics basics</a>
+      <a href="kingraph.html">Kinematic graphs</a>
+      <a href="2Dkinematics.html">2-Dimensional</a>
+    </div>
+  </li>
+
+
+   <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Mechanics</a>
+    <div class="dropdown-content">
+      <a href="mechanics.html">Mechanics basics</a>
+      <a href="pulleys.html">Pulleys</a>
+      <a href="planes.html">Inclined planes</a>
+      <a href="spring.html">Spring force</a>
+      <a href="centripetal.html">Centripetal force</a>
+       <a href="thermo.html">Thermodynamics</a>
+       <a href="power.html">Power</a>
+       <a href="momentum.html">Momentum</a>
+    </div>
+  </li>
+
+   <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Angular Motion</a>
+    <div class="dropdown-content">
+      <a href="angularmotion.html">Displacement</a>
+      <a href="angularv.html">Velocity</a>
+      <a href="angularacceleration.html">Acceleration</a>
+      <a href="torque.html">Torque</a>
+    </div>
+  </li>
+
+
+ <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Optics</a>
+    <div class="dropdown-content">
+      <a href="waves.html">Waves</a>
+      <a href="reflection.html">Reflection</a>
+      <a href="refraction.html">Refraction</a>
+    </div>
+  </li>
+
+</ul>
+
+</body>
+  <head>
+
+<style>
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+.parallax1 {
+    /* The image used */
+    background-image: url('http://spiritualnutrition.org/wp-content/uploads/2012/11/balance.jpg');
+
+    /* Full height */
+    height: 40%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url('http://spiritualnutrition.org/wp-content/uploads/2012/11/balance.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+
+</head>
+
+
+
+<body background="http://spiritualnutrition.org/wp-content/uploads/2012/11/balance.jpg">
+
+    <div class="parallax1"></div>
+
+<div style="height:180px;background-color:rgb(200,230,230);font-size:50px;color:rgb(50,80,100);">
+<br><center>Thermodynamics</center></div>
+
+    <div class="parallax1"></div>
+
+<div style="height:50;background-color:rgb(200,230,230);font-size:16px;padding:50px">
+
+Golden rule:<br>
+Energy can not be created or destroyed. It can only be transformed. <br><br>
+
+In thermodynamics, energy is represented as work. <br>
+
+Formula for conservation of energy: <br><br>
+
+<img src="https://files.slack.com/files-pri/T4PP9GF0T-F5FN6HSSC/work.png?pub_secret=f98233adb3" style="width:300px;">     
+
+</div>
+
+<div class="parallax1"></div>
+
+<div style="height:300;background-color:rgb(200,230,230);font-size:16px;padding:50px">
+
+General formula for work: <br>
+<strong>Work = Force * distance</strong><br><br>
+
+Thermodynamics are made up of types of work. <br><br>
+
+1.  Gravitational potential energy (Ep)<br>
+W = F*d<br>
+Ep = Fg*d<br><strong>
+Ep = m*g*h<br><br></strong>
+ 
+2.  Friction energy (Wf)<br>
+W = F*d<br>
+Wf = Ff*d<br><strong>
+W = 1/2 Miew(Fn)*d<br><br></strong>
+
+3.  Kinetic energy(Ek)  Anything in movement has kinetic energy<br><strong>
+Ek = 1/2(m)V^2<br><br></strong>
+
+4.  Spring energy<br><strong>
+Es = 1/2(K)x^2</strong> ---> K is the spring constant and x is the compression change<br><br>
+
+</div>
+
+
+
+    <div class=parallax2></div>
+
+
+</body>
+</html>
+

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+
+  <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(216,225,235);
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:rgb(0,0,0);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(140,155,175);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 13px 13px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  </style>
+
+</head>
+
+
+
+<body>
+
+
+<ul>
+  <li>
+  <a href="home.html"> <i class="fa fa-home" style="font-size:22px"></i></a>
+  </li>
+
+  <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Vectors</a>
+    <div class="dropdown-content">
+      <a href="vector.html">Vector basics</a>
+      <a href="vector_adding.html">Vector addition</a>
+    </div>
+  </li>
+
+
+
+  <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Kinematics</a>
+    <div class="dropdown-content">
+      <a href="kinvectors.html">Kinematics basics</a>
+      <a href="kingraph.html">Kinematic graphs</a>
+      <a href="2Dkinematics.html">2-Dimensional</a>
+    </div>
+  </li>
+
+
+   <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Mechanics</a>
+    <div class="dropdown-content">
+      <a href="mechanics.html">Mechanics basics</a>
+      <a href="pulleys.html">Pulleys</a>
+      <a href="planes.html">Inclined planes</a>
+      <a href="spring.html">Spring force</a>
+      <a href="centripetal.html">Centripetal force</a>
+       <a href="thermo.html">Thermodynamics</a>
+       <a href="power.html">Power</a>
+       <a href="momentum.html">Momentum</a>
+    </div>
+  </li>
+
+   <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Angular Motion</a>
+    <div class="dropdown-content">
+      <a href="angularmotion.html">Displacement</a>
+      <a href="angularv.html">Velocity</a>
+      <a href="angularacceleration.html">Acceleration</a>
+      <a href="torque.html">Torque</a>
+    </div>
+  </li>
+
+
+ <li class="dropdown">
+    <a href="#" class="dropbtn" style="font-size:20px">Optics</a>
+    <div class="dropdown-content">
+      <a href="waves.html">Waves</a>
+      <a href="reflection.html">Reflection</a>
+      <a href="refraction.html">Refraction</a>
+    </div>
+  </li>
+
+</ul>
+
+</body>
+  <head>
+
+<style>
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+.parallax1 {
+    /* The image used */
+    background-image: url('http://www.progeris.fr/images/20707358-Le-travail-d-quipe-et-le-concept-de-succ-s-avec-un-pont-de-gens-d-affaires-Banque-dimages.jpeg');
+
+    /* Full height */
+    height: 40%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url('http://www.progeris.fr/images/20707358-Le-travail-d-quipe-et-le-concept-de-succ-s-avec-un-pont-de-gens-d-affaires-Banque-dimages.jpeg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+
+</head>
+
+
+
+<body background="http://www.progeris.fr/images/20707358-Le-travail-d-quipe-et-le-concept-de-succ-s-avec-un-pont-de-gens-d-affaires-Banque-dimages.jpeg">
+
+    <div class="parallax1"></div>
+
+<div style="height:180px;background-color:rgb(216,225,235);font-size:50px">
+<br><center>Torque</center></div>
+
+    <div class="parallax1"></div>
+
+<div style="height:300;background-color:rgb(216,225,235);font-size:16px;padding:50px">
+
+Definition: Torque is a rotational force around a pivot point. <br><br>
+
+&tau; = tau     [Nm] or [Kg(m^2/s^2)]<br><br>
+
+&tau; = tangential Force * distance from pivot point<br><br><br>
+
+<img src="https://files.slack.com/files-pri/T4PP9GF0T-F5MH44SJ3/torque.png?pub_secret=2da6502f50"><br><br>
+
+In this situation, the see-saw is not in motion, therefore the total torque is 0. <br>
+The torque formula will be used to solve for the distance of person B. <br><br>
+
+&tau; = torque of person B - torque of person A<br><br>
+
+Person A is being subtracted because the direction of their rotation is clockwise, therefore negative.<br><Br>
+
+0 = 500N * x - 1000N * 1m<br><br>
+
+x = 2m
+
+</div>
+
+    <div class=parallax2></div>
+
+</body>
+</html>
+
